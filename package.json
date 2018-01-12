@@ -1,29 +1,17 @@
 {
   "title": "Resume",
-  "name": "startbootstrap-resume",
+  "name": "shambhu-resume",
   "version": "4.0.0-beta.2",
   "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    "email": "feedback@startbootstrap.com"
-  },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "Shambhu Kumar Ray",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "David Miller (http://davidmiller.io/)",
+    "Start Bootstrap"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    "url": "https://github.com/Shambhu-Ray/resume.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
