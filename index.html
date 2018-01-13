@@ -27,38 +27,23 @@
     <style>
 
       @media screen and (max-width: 560px) , screen and (max-width: 1366px) {
-        .name-font-size {
-          font-size: 5rem;
-        }
-        .text-center{
-          text-align: unset !important;
-        }
+        .responsive-font-size {  font-size: 5rem;  }
+        .text-center{  text-align: unset !important;  }
+        .font-resize{ font-size: 3.5rem }
       }
       @media screen and (max-width: 480px) , screen and (max-width: 559px) {
-        .name-font-size {
-          font-size: 4rem;
-        }
-        .text-center{
-          text-align: unset !important;
-        }
+        .responsive-font-size {  font-size: 4rem;  }
+        .text-center{  text-align: unset !important;  }
+        .font-resize{ font-size: 3.5rem }
       }
       @media screen and (max-width: 479px) {
-        .name-font-size {
-          font-size: 3rem;
-        }
-        .text-center{
-          text-align: center !important;
-        }
+        .responsive-font-size {  font-size: 3rem;  }
+        .text-center{  text-align: center !important;  }
+        .font-resize{ font-size: 3rem }
+        .mr-auto { margin-right: unset !important;}
       }
     </style>
 
-    <script>
-        var screenWidth = screen.width;
-        var screenHeight = screen.height;
-
-        console.log(screenWidth);
-        console.log(screenHeight);
-    </script>
   </head>
 
   <body id="page-top">
@@ -106,7 +91,7 @@
       <!--About-->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0 name-font-size text-center">Shambhu Kumar
+          <h1 class="mb-0 responsive-font-size text-center">Shambhu Kumar
             <span class="text-primary">Ray</span>
           </h1>
           <div class="subheading mb-5">B-605 Mystic B-Block Megapolis, Hinjewadi Phase-3, Pune <br>+91 8809504228, +91 9518952216 ·
@@ -173,11 +158,11 @@
 
       <!--Education-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto text-center">
-          <h2 class="mb-5">Education</h2>
+        <div class="my-auto">
+          <h2 class="mb-5 text-center">Education</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5 text-center">
-            <div class="resume-content">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">
                 MAKAUT<br>
                 <span style="font-size: 1.15rem">Formerly known as</span>
@@ -194,7 +179,7 @@
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row text-center">
-            <div class="resume-content">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">Bihar School Examination Board</h3>
               <div class="subheading mb-3">L.N. College, Bhagwanpur, Vaishali</div>
               <div class="subheading mb-3">Higher Secondary Examination (12th)</div>
@@ -207,7 +192,7 @@
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row text-center">
-            <div class="resume-content">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">Bihar School Examination Board</h3>
               <div class="subheading mb-3">Bhagwan Shankar High School, Lalganj</div>
               <div class="subheading mb-3">Secondary School Examination (10th)</div>
@@ -308,7 +293,7 @@
       <!--Awards-->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5 name-font-size text-center">Achievements/Extra Curricular Activities</h2>
+          <h2 class="mb-5 font-resize text-center">Achievements/Extra Curricular Activities</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
