@@ -1,14 +1,10 @@
 {
   "title": "Resume",
   "name": "shambhu-resume",
-  "version": "4.0.0-beta.2",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "version": "1.0",
+  "description": "Simple Resume for testing.",
   "license": "MIT",
   "author": "Shambhu Kumar Ray",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)",
-    "Start Bootstrap"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Shambhu-Ray/resume.git"
