@@ -2,7 +2,7 @@
   "title": "Resume",
   "name": "shambhu-resume",
   "version": "1.0",
-  "description": "Simple Resume for testing.",
+  "description": "Simple Resume for testing and used template from https://startbootstrap.com/template-overviews/resume",
   "license": "MIT",
   "author": "Shambhu Kumar Ray",
   "repository": {
