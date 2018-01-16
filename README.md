@@ -1,2 +1,2 @@
 # resume
-It's resume
+It's simple resume.
